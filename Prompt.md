@@ -1,21 +1,23 @@
-# 新需求
+# New Requirement
 
-调整App.tsx页面的布局为顶部导航栏、左侧菜单栏和底部信息栏，中间为内容区域。
+Adjust the App.tsx page layout to include top navigation bar, left sidebar menu, and bottom information bar, with content area in the middle.
 
-- 顶部导航栏包含应用名称、Logo和用户信息(最右侧显示)。
-- 左侧菜单栏包含导航链接，如首页、设置、帮助等。
-- 底部信息栏主要是呈现操作后的提示信息：左侧为文本提示，最右侧显示一个icon，点击后展现最近的提示信息。
-- 内容区域应支持动态加载不同的页面内容
+- Top navigation bar contains application name, Logo, and user information (displayed on the far right).
+- Left sidebar menu contains navigation links, such as Home, Settings, Help, etc.
+- Bottom information bar mainly displays prompt information after operations: text prompt on the left, and an icon on the far right. Click to show recent prompt information.
+- Content area should support dynamic loading of different page content
 
-增加两个内容区域的组件：
+Add two content area components:
 
-- Dashboard组件(默认)：显示应用的主要统计数据和图表。
-- 设置组件：显示系统的配置项选项，如样色、通知设置等。
+- Dashboard component (default): Displays the main statistics and charts of the application.
+- Settings component: Displays system configuration options, such as theme, notification settings, etc.
 
 
-# 新需求
+# New Requirement
 
-请调整APITester.tsx页面，增加http header输入框，允许用户自定义请求头信息。
+Please adjust the APITester.tsx page to add HTTP header input boxes, allowing users to customize request header information.
 
-- 用户可以添加多个header，每个header包含key和value两个输入框。
-- 请求发送时，这些自定义的header会被包含在HTTP请求中。
+- Users can add multiple headers, each header contains key and value input boxes.
+- When sending requests, these custom headers will be included in the HTTP request.
+
+
